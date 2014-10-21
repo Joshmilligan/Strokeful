@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color:#00B1B1;
+    font-family: quicksand, Helvetica;
     
 }
 footer{
@@ -19,9 +20,8 @@ footer{
 .menu{
     flex-grow: 1;
     height:50px;
-    
+    line-height: 50px;
 
-        
 }
 .what {
     background-color:#FF0067;
@@ -43,34 +43,25 @@ footer{
     color:white;
 }
 .arrow-left{
-    width: 0;
-	height: 0;
-	border-top: 60px solid transparent;
-	border-right: 80px solid white;
-	border-bottom: 60px solid transparent; 
-    opacity: 50%;
-    float:left;
-    position: relative;
-    top: 50%;
-	transform: translateY(-100%);
-
-
+	border-right: 80px solid white; 
+    left:10px;
 }
 .arrow-right{
-	width: 0;
-	height: 0;
-	border-top: 60px solid transparent;
 	border-left: 80px solid white;
-	border-bottom: 60px solid transparent;
-    float:right;
-    position: relative;
-    top: 50%;
-	transform: translateY(-100%);
-    
- 
+    right:10px;
+
     
 }
-
+.arrow{
+    width: 0;
+	height: 0;
+    opacity:.5;
+    position: absolute;
+    top: 50%;
+	transform: translateY(-100%);
+    border-bottom: 60px solid transparent;
+    border-top: 60px solid transparent;
+}
 
     
 <!--
