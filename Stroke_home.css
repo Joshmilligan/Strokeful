@@ -1,8 +1,51 @@
-#title{
+body{
+    box-sizing: border-box;
+}
+#title{    
     width: 0;
 	height: 0;
 	border: 50px solid transparent;
-	border-bottom-color: red;
+	border-bottom-color: blue;
 	position: relative;
-	top: -50px;
+	top: -20px;
+    transform: scale(5);
+    left:300;
+}
+#title:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: red;
+}
+.what{
+    margin: auto;
+    width:110px;
+    float:left;
+    border:1px;
+    background-color:red;
+}
+.symptoms{
+    margin: auto;
+    width:110px;
+    float:left;
+    border:1px;
+    background-color:red;
+}
+.causes{
+    margin: auto;
+    width:110px;
+    float:left;
+    border:1px;
+    background-color:red;
+}
+.treatment{
+    margin: auto;
+    width:110px;
+    float:left;
+    border:1px;
+    background-color:red;
 }

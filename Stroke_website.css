@@ -1,9 +1,12 @@
+head{
+}
 body{
     margin: 0;
     background-color:#00B1B1;
-    font-family: quicksand, Helvetica;
-    
+    font-family: "Quicksand";
+    height:100vh;
 }
+
 footer{
     position: fixed;
     width:100%;
@@ -15,7 +18,10 @@ footer{
     display:flex;
     flex-direction: row;
     text-align: center;
+}
+a:link{
     
+    font-family: inherit;
 }
 .menu{
     flex-grow: 1;
