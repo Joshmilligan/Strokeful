@@ -24,7 +24,8 @@ footer{
 #nav{
     display:flex;
     flex-direction: row;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: space-around;
     position: fixed;
     width:100%;
     height:50px;
@@ -80,14 +81,15 @@ a{
     border-top: 60px solid transparent;
 }
 .content{
-    flex-grow:1;
+    width:7.14%;
 
 
 
 }
 
 p{
-    bottom:80px;
+    position: fixed;
+    bottom:50px;
 }
 
 
