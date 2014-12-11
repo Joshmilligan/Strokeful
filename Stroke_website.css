@@ -6,10 +6,19 @@ head{
     flex-direction:row;
     background-color:#00B1B1;
     font-family: "Quicksand";
+    color:white;
     height:98vh;
+    overflow-y:auto;
+    position: relative;
+    transition: left .5s;
     
+    
+}
+#supercontainer div{
+    height:98;
 
 }
+
 body{
     margin:0;
 
@@ -24,7 +33,7 @@ footer{
 #nav{
     display:flex;
     flex-direction: row;
-    /*text-align: center;*/
+    text-align: center;
     justify-content: space-around;
     position: fixed;
     width:100%;
@@ -40,8 +49,10 @@ a{
 #nav a{
     flex-grow: 1;
     height:50px;
-    line-height: 50px;
+    line-height: 40px;
     color:white;
+    align-content: center;
+    font-size: 15pt;
 
 }
 .what {
@@ -60,39 +71,112 @@ a{
     Background-color:#8AD900;
 
 }
-.arrow-left{
-	border-right: 80px solid white; 
-    left:10px;
+.content2{
+    width:100vw;
+    /*width:7.14%;*/
 }
-.arrow-right{
-	border-left: 80px solid white;
-    right:10px;
+h1{
+    position:relative;
+    top:575px;
+    text-align: center;
+}
+p{
+    position: relative;
+    top:575px;
+    text-align: center;
+    margin-left:50px;
+    margin-right:50px;
+}
+#wrapper input{
+  display:none; 
+}
+label{
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    
+ 
+}
+.labels{
+    position:fixed;
+    z-index: 1;
+    display:flex;
+    justify-content: space-between;
+    bottom:4.5%;
+    width:100%;
 
     
 }
-.arrow{
-    width: 0;
-	height: 0;
-    opacity:.5;
-    position: fixed;
-    top: 50%;
-	transform: translateY(-100%);
-    border-bottom: 60px solid transparent;
-    border-top: 60px solid transparent;
+
+object{
+    position: relative;
 }
-.content{
-    width:7.14%;
-
-
+.pill{
+    transform: scale(1.5);
+}
+.brain2{
+    transform: scale(1.2);
+    
+}
+.IV{
+    
+}
+.images{
+    /*max-height: 50%;*/
+    transform: scale(12);
+    max-width: 60%;
+    align-content: center;
+    float:right;
+    margin-right: 10em;
+    position: relative;
+    z-index: 1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100vw;
+    top:150px;
+    
+    
+}
+img{
+ max-height: 50px;
+}
+#buttons{
 
 }
-
-p{
-    position: fixed;
-    bottom:50px;
+h2{
+ 
+}
+#nav2{
+    position: relative;
+    width:100%;
+    
+    
+    
+}
+li{
+  transform:scale(.3);
+}
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+    padding-left: 0;
+}
+li:click:{
+    animation: fadein 5s;
 }
 
 
+
+
+    
+    
+}
 
     
 <!--
